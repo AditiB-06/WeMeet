@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/background"
+    android:background="@drawable/bg"
     tools:context=".DashboardActivity">
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
@@ -35,9 +35,9 @@
             <ImageView
                 android:id="@+id/imageView3"
                 android:layout_width="match_parent"
-                android:layout_height="50dp"
+                android:layout_height="60dp"
                 android:layout_margin="10dp"
-                app:srcCompat="@drawable/meeting" />
+                app:srcCompat="@drawable/videocall" />
 
             <TextView
                 android:id="@+id/textView2"
